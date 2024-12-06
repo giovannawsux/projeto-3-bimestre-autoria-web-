@@ -1,0 +1,63 @@
+<!-- Componentes: Débora Alice, Giovanna Maria, Joanny Câmara e Maria Helen -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Loja de Maquiagem</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="header">
+        <div class="logo">
+            <h1>Glamour Store</h1>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Realce sua Beleza com Glamour</h2>
+            <p>Descubra a melhor seleção de maquiagens para você brilhar em qualquer ocasião.</p>
+            <a href="#produtos" class="btn">Conheça os Produtos</a>
+        </div>
+    </section>
+
+    <section id="produtos" class="products">
+        <h2 class="section-title">Promoções da semana</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="./imagens/batom glamour.webp" alt="Batom" class="product-image">
+                <h3 class="product-name">Batom Glamour</h3>
+                <p class="product-price">R$ 29,90</p>
+            </div>
+            <div class="product">
+                <img src="./imagens/base perfeição.webp" alt="Base" class="product-image">
+                <h3 class="product-name">Base Perfeição</h3>
+                <p class="product-price">R$ 59,90</p>
+            </div>
+            <div class="product">
+                <img src="./imagens/paleta de sombras.webp" alt="Paleta de Sombras" class="product-image">
+                <h3 class="product-name">Paleta de Sombras</h3>
+                <p class="product-price">R$ 79,90</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="about">
+        <h2 class="section-title">Sobre Nós</h2>
+        <p>Na Glamour Store, acreditamos que a maquiagem é uma forma de expressão. Trabalhamos para oferecer produtos de alta qualidade que combinam beleza e confiança.</p>
+    </section>
+
+    <footer id="contato" class="footer">
+        <h2 class="section-title">Contato</h2>
+        <p>Email: contato@glamourstore.com</p>
+        <p>Telefone: (84) 99999- 9999 </p>
+    </footer>
+</body>
+</html>
